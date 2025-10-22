@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día 2 - AWS Partner Live London 2025</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Día 2 del evento AWS Partner Live London 2025 - 8 de Octubre">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>AWS Partner Live London 2025</h1>
+            <p class="subtitle">Día 2 - 8 de Octubre, 2025</p>
+            <p class="dates">Observability & Advanced Monitoring</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <strong>AWS Partner Live</strong>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="dia1.html">Día 1</a></li>
+                <li><a href="dia2.html" class="active">Día 2</a></li>
+                <li><a href="dia3.html">Día 3</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Day Navigation -->
+        <div class="day-nav">
+            <a href="dia1.html">Día 1 - 7 Oct</a>
+            <a href="dia2.html" class="active">Día 2 - 8 Oct</a>
+            <a href="dia3.html">Día 3 - 9 Oct</a>
+        </div>
+
+        <!-- Search -->
+        <div class="search-container">
+            <input type="text" id="search-box" class="search-box" placeholder="Buscar en las sesiones del Día 2...">
+        </div>
+
+        <!-- Session 1: CloudWatch & CloudTrail Roadmap -->
+        <section class="session" id="cloudwatch-roadmap" data-start-time="2025-10-08T09:15:00">
+            <h2>Observability Roadmap and What's New With Amazon CloudWatch & CloudTrail</h2>
+            <div class="speaker">AWS Product Team</div>
+            <div class="time">09:15 - 10:00</div>
+            
+            <div class="content">
+                <h3>Customer Challenge in Observing GenAI Apps and Agents</h3>
+                <ul>
+                    <li>Fragmented tracing</li>
+                    <li>Manual instrumentation to stitch together interactions</li>
+                    <li>Lack of visibility into agent performance</li>
+                    <li>Lack of scalable quality evaluation</li>
+                </ul>
+
+                <h3>Amazon CloudWatch Generative AI Observability (Available in Preview)</h3>
+                <ul>
+                    <li>Curated insights</li>
+                    <li>360º view of agents workflows</li>
+                    <li>Automatically collect AI agent telemetry</li>
+                    <li>End to end prompt tracing</li>
+                </ul>
+
+                <h3>Enterprise-grade Alarming</h3>
+                <ul>
+                    <li>Han solucionado el problema de saber que contributor generó la alarma</li>
+                    <li>Tag based experience (hay que usar tags)</li>
+                </ul>
+
+                <h3>Amazon CloudWatch Logs Centralization</h3>
+                <ul>
+                    <li>Van a unir los logs de todas las cuentas</li>
+                    <li>Si tienen los mismos nombres de log groups lo entienden</li>
+                    <li>Además vienen con el ID de la cuenta y la región</li>
+                    <li>Se va a poder especificar una backup region también (cost applied)</li>
+                    <li>Si tenemos redacted info en las cuentas linked no se podrá desredactar en el centralizado</li>
+                </ul>
+
+                <h3>AWS Telemetry Solution</h3>
+                <ul>
+                    <li>Van a crear una única solución para security, observability and compliance data</li>
+                    <li>Centralized data collection, built in analytics</li>
+                    <li>Van a hacer nuevas capabilities en CloudWatch</li>
+                    <li><strong>OCSF</strong> - parece que va a ser el standard de seguridad en AWS</li>
+                </ul>
+
+                <h3>What's New With Amazon CloudTrail</h3>
+                <h4>2025</h4>
+                <ul>
+                    <li><strong>Events:</strong>
+                        <ul>
+                            <li>Enhanced event filtering</li>
+                            <li>Network activity event</li>
+                            <li>Enrichment: tags and IAM global cond. Keys</li>
+                            <li>Support for large events (1MB)</li>
+                            <li>S3 deleteObjects API detailed visibility</li>
+                        </ul>
+                    </li>
+                    <li><strong>Visualize and analyze:</strong>
+                        <ul>
+                            <li>New dashboards with 15 managed dashboards and 200+ new sample queries</li>
+                            <li>Cross-account Event Data Store (EDS) sharing - IAM roles con permiso van a poder consultar trails de otras cuentas</li>
+                        </ul>
+                    </li>
+                    <li><strong>Intelligent:</strong>
+                        <ul>
+                            <li>AI powered natural language</li>
+                            <li>Summarization</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h4>2026</h4>
+                <ul>
+                    <li>OU level logging</li>
+                    <li>Auth events</li>
+                    <li>CloudTrail integration with Icebergs API</li>
+                </ul>
+
+                <h4>Upcoming</h4>
+                <ul>
+                    <li><strong>Aggregated Data Events</strong> - Ability to receive aggregated report of data events instead of individual events for each API call</li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes de la Sesión</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008090312.jpg" alt="CloudWatch Roadmap">
+                        <div class="caption">09:03 - CloudWatch Roadmap</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008095911.jpg" alt="GenAI Observability">
+                        <div class="caption">09:59 - GenAI Observability</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008100213.jpg" alt="Enterprise Alarming">
+                        <div class="caption">10:02 - Enterprise Alarming</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008100825.jpg" alt="Logs Centralization">
+                        <div class="caption">10:08 - Logs Centralization</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008101244.jpg" alt="CloudTrail Updates">
+                        <div class="caption">10:12 - CloudTrail Updates</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 2: Observability for Resilience -->
+        <section class="session" id="observability-resilience" data-start-time="2025-10-08T10:00:00">
+            <h2>Observability for Resilience</h2>
+            <div class="speaker">Ramgopal Rajan - Solutions Architect leader</div>
+            <div class="time">10:00 - 10:30</div>
+            
+            <div class="content">
+                <h3>How Do We Measure Resilience?</h3>
+                <p><strong>Availability = mean time to failure / (mean time before failure + mean time to recover)</strong></p>
+
+                <h3>Diagnosing Issues</h3>
+                
+                <h4>Dependency Failure</h4>
+                <ul>
+                    <li>Queremos saber el origen del fallo</li>
+                    <li>Con el traceID se intentará trazar toda la comunicación</li>
+                    <li><strong>X-Ray</strong> será el servicio usado</li>
+                </ul>
+
+                <h4>System Component Failure</h4>
+                <ul>
+                    <li>Si un web server is unhealthy puede que tengas un 11% de fallos que te valga pero para el cliente no es válido</li>
+                    <li>Lo que necesitas es chequear el health del web server en concreto que se vaya a llamar desde el ALB (instance level)</li>
+                    <li>Usaremos dimensionality ("show me [metric] per [dimension]")
+                        <ul>
+                            <li>Metric being latency, errors, requests...</li>
+                            <li>Dimension being API, webpage, instanceID</li>
+                        </ul>
+                    </li>
+                    <li>Lo haremos con <strong>CloudWatch Embedded Metric Format</strong></li>
+                </ul>
+
+                <h4>Ran into a Limit</h4>
+                <ul>
+                    <li>Observe resource utilization</li>
+                    <li>Esto trata de resolver de manera proactiva las llegadas a límites</li>
+                    <li>Se van a poder crear alarmas asociadas a los thresholds de los límites</li>
+                    <li>Si tienes alarmas asociadas a los autoscaling groups cuando escalas tienes que variar la alarma</li>
+                </ul>
+
+                <h4>Traffic Spike</h4>
+                <ul>
+                    <li>Observe traffic volume</li>
+                    <li>Cuando tienes un spike de tráfico una de las cosas que quieres es saber la fuente</li>
+                    <li>La recomendación es usar <strong>CloudWatch Contributor Insights Rules</strong></li>
+                    <li>Se va a poder filtrar por top 10 contributors</li>
+                    <li>Traffic insights va a permitir unos filtros mucho mayores</li>
+                </ul>
+
+                <h4>Bad Deployment</h4>
+                <ul>
+                    <li>Si aparece un error en un bad deployment las best practices dicen que tienes que empezar con una máquina, luego dos, etc.</li>
+                    <li>Se pueden usar alarmas compuestas (por ejemplo, si una medida de CPU sube por sí sola no significa nada pero si lo hace a la vez que la memoria posiblemente sí)</li>
+                </ul>
+
+                <h3>Summary</h3>
+                <ul>
+                    <li>Usar dimensiones para las métricas</li>
+                    <li>Logs estructurados (contributor insights, metrics insights, log insights...)</li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes de la Sesión</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability1.jpg" alt="What to Measure">
+                        <div class="caption">What to Measure (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability2.jpg" alt="Dependency Failure">
+                        <div class="caption">Dependency Failure</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability3.jpg" alt="X-Ray Tracing">
+                        <div class="caption">X-Ray Tracing (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability4.jpg" alt="System Component Failure">
+                        <div class="caption">System Component Failure</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability5.jpg" alt="CloudWatch Embedded Metric Format">
+                        <div class="caption">CloudWatch Embedded Metric Format (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability6.jpg" alt="Resource Limits">
+                        <div class="caption">Resource Limits (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability7.jpg" alt="Traffic Spike">
+                        <div class="caption">Traffic Spike (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability8.jpg" alt="Contributor Insights">
+                        <div class="caption">Contributor Insights (fotos)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability9.jpg" alt="Bad Deployment">
+                        <div class="caption">Bad Deployment (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability10.jpg" alt="Summary">
+                        <div class="caption">Summary (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Observability11.jpg" alt="Best Practices">
+                        <div class="caption">Best Practices</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 3: Application Performance Monitoring -->
+        <section class="session" id="apm" data-start-time="2025-10-08T10:45:00">
+            <h2>Implementing Application Performance Monitoring for Critical Workloads</h2>
+            <div class="speaker">Ewan Steele - Senior Tech account manager</div>
+            <div class="time">10:45 - 11:30</div>
+            
+            <div class="content">
+                <h3>Why App Monitoring?</h3>
+                <ul>
+                    <li>Because manual monitoring is HARD</li>
+                    <li>Because is hard to find your apps and dependencies</li>
+                    <li>Because the signal overload</li>
+                    <li>Because knowing what to prioritize when things go wrong is hard</li>
+                    <li>Because every second counts</li>
+                </ul>
+
+                <h3>For All of This We Need MODERN SOLUTION</h3>
+                <ul>
+                    <li>Amazon tiene muchísimos datos</li>
+                    <li>Lo lógico es pensar en observabilidad basada en apps</li>
+                </ul>
+
+                <h3>Amazon CloudWatch App Signals</h3>
+                <ul>
+                    <li>Best practice service operator dashboards</li>
+                    <li>Golden app metrics</li>
+                    <li>Service level objectives</li>
+                    <li>Quickly arrive at root cause</li>
+                </ul>
+
+                <h3>Demo Highlights</h3>
+                <ul>
+                    <li>Nos muestran una demo de CloudWatch acerca de la monitorización de apps</li>
+                    <li>Usando SLO, Canaries</li>
+                    <li>Cuando saca los SLO puede pinchar en las apps que tiene para ver los datos</li>
+                    <li>Nos enseña el app map, que también sirve para hacer un análisis minucioso del flujo de la app entre componentes</li>
+                    <li>El panel de Spans te permite tirar queries para consultar datos de logs (de un loggroup en concreto)</li>
+                    <li>Otra opción es ir al Transaction Search de CloudWatch</li>
+                    <li>Para terminar va a GenAI observability en CloudWatch (en el menú de APM)</li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes de la Sesión</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion1.jpg" alt="Why App Monitoring">
+                        <div class="caption">Why App Monitoring</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion2.jpg" alt="Modern Solution">
+                        <div class="caption">Modern Solution (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion3.jpg" alt="App Signals">
+                        <div class="caption">App Signals (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion4.jpg" alt="How It Works">
+                        <div class="caption">How It Works (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion5.jpg" alt="SLOs Work">
+                        <div class="caption">SLOs Work (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Applicattion6.jpg" alt="CloudWatch Demo">
+                        <div class="caption">CloudWatch Demo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 4: AI for Operational Issues -->
+        <section class="session" id="ai-operations" data-start-time="2025-10-08T11:30:00">
+            <h2>Investigate Operational Issues Faster With AI</h2>
+            <div class="speaker">Satya Konathala</div>
+            <div class="time">11:30 - 12:00</div>
+            
+            <div class="content">
+                <h3>Observability Challenges</h3>
+                <ul>
+                    <li>Lack of data</li>
+                    <li>Info overload</li>
+                    <li>Alarm fatigue</li>
+                    <li>Data correlation</li>
+                    <li>Remediation vs prevention</li>
+                </ul>
+
+                <h3>AI OPS</h3>
+                <ul>
+                    <li>AI/ML options for AIOPS</li>
+                    <li>Best Practices</li>
+                </ul>
+
+                <h3>Demo: Amazon CloudWatch Investigations</h3>
+                <ul>
+                    <li>Pet clinic application</li>
+                    <li>Para empezar hay que ir a la configuration de AI Operations</li>
+                    <li>Se pueden encontrar best practices</li>
+                    <li>Amazon CloudWatch Investigations</li>
+                    <li>Fotos con QRs que enlazan a demo, workshop, canal de youtube, etc</li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes de la Sesión</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/AIOps.jpg" alt="Observability Challenges">
+                        <div class="caption">Observability Challenges</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/AIOps2.jpg" alt="AI OPS">
+                        <div class="caption">AI OPS (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/AIOps3.jpg" alt="AI/ML Options">
+                        <div class="caption">AI/ML Options (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/AIOps4.jpg" alt="Best Practices">
+                        <div class="caption">Best Practices (FOTO)</div>
+                    </div>
+                    <div class="gallery-item qr-highlight">
+                        <img src="images/Día 2/AIOps5.jpg" alt="CloudWatch Investigations QR">
+                        <div class="caption">CloudWatch Investigations QR</div>
+                    </div>
+                    <div class="gallery-item qr-highlight">
+                        <img src="images/Día 2/AIOps6.jpg" alt="Demo QR">
+                        <div class="caption">Demo QR</div>
+                    </div>
+                    <div class="gallery-item qr-highlight">
+                        <img src="images/Día 2/AIOps7.jpg" alt="Workshop QR">
+                        <div class="caption">Workshop QR</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/AIOps8.jpg" alt="AI Operations Summary">
+                        <div class="caption">AI Operations Summary</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 5: Workshop -->
+        <section class="session" id="workshop" data-start-time="2025-10-08T13:00:00">
+            <h2>Intelligent Operations Workshop</h2>
+            <div class="speaker">David Rowley</div>
+            <div class="time">13:00 - 15:00</div>
+            
+            <div class="content">
+                <h3>Amazon Q Mainly</h3>
+                <ul>
+                    <li><strong>AWS Console integration with AmQ</strong></li>
+                    <li><strong>AWS Q CLI for Log Analysis & Compliance</strong></li>
+                    <li><strong>AWS Console Integration with Amazon Q again</strong></li>
+                    <li><strong>Using MCP Server for CloudWatch Operations</strong></li>
+                </ul>
+
+                <p><em>Workshop hands-on de 2 horas enfocado en herramientas de AI para operaciones.</em></p>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes del Workshop</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008155534.jpg" alt="Workshop Start">
+                        <div class="caption">15:55 - Workshop Start</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008155835.jpg" alt="Amazon Q Console">
+                        <div class="caption">15:58 - Amazon Q Console</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008160053.jpg" alt="Q CLI">
+                        <div class="caption">16:00 - Q CLI</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008160348.jpg" alt="MCP Server">
+                        <div class="caption">16:03 - MCP Server</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/IMG20251008160410.jpg" alt="CloudWatch Operations">
+                        <div class="caption">16:04 - CloudWatch Operations</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 6: Gray Failures -->
+        <section class="session" id="gray-failures" data-start-time="2025-10-08T15:15:00">
+            <h2>Detecting and Mitigating Gray Failures</h2>
+            <div class="speaker">Rachna Bhalla</div>
+            <div class="time">15:15 - 15:45</div>
+            
+            <div class="content">
+                <h3>Differential Observability</h3>
+                <p>Son datos de análisis que no hacen saltar alarmas pero sí que reflejan errores.</p>
+
+                <h3>Fault Containers</h3>
+                <ul>
+                    <li>Regions</li>
+                    <li>Availability Zone</li>
+                    <li>Instance</li>
+                    <li>Software</li>
+                </ul>
+
+                <h3>Single Instance Gray Failures</h3>
+                <p>Si una instancia falla dentro de un grupo de muchas, puede que la alarma no salte porque el sistema sigue funcionando.</p>
+
+                <h3>Health Checks</h3>
+                <ul>
+                    <li><strong>Shallow health checks</strong> - Detecta en el ELB, y reemplaza la instancia</li>
+                    <li><strong>Deep health checks</strong> - Detectado en ELB pero no se reemplaza la instancia</li>
+                </ul>
+
+                <h3>Health Checks Not Always Tell the Whole Story</h3>
+                <ul>
+                    <li>Outlier detection</li>
+                    <li>Comparing metric data among instances</li>
+                    <li>Spotting an outlier -> You do this with lambda (pulling or with an alarm trigger)</li>
+                </ul>
+
+                <h3>Outlier Detection Considerations</h3>
+                <ul>
+                    <li>Hiding failures</li>
+                    <li>Detecting false positives</li>
+                </ul>
+
+                <h3>Availability Zone Gray Failures</h3>
+                <ul>
+                    <li>Multiple AZs show impact but 1 is more impacted (outlier)</li>
+                    <li>Clear signal 1 AZ is impacted and the others no (outlier or composite alarms)</li>
+                    <li>Aggregate signals with cloudwatch composite alarms</li>
+                    <li>All fault containers are impacted because of shared resource (composite alarms)</li>
+                </ul>
+
+                <h3>When an AZ Gray Failure Happens You Can:</h3>
+                <ul>
+                    <li>Wait for the impairment</li>
+                    <li>Shift away from AZ</li>
+                    <li>Failover to another region</li>
+                </ul>
+
+                <h3>Data Plane Controlled Evacuation</h3>
+                <ul>
+                    <li><strong>Amazon Route 53 App Recovery Controller (ARC) zonal shift</strong></li>
+                    <li><strong>Self managed HTTP endpoint</strong> (example S3)</li>
+                </ul>
+            </div>
+
+            <div class="image-gallery">
+                <h3>Imágenes de la Sesión</h3>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting1.jpg" alt="AZ Evacuation Considerations">
+                        <div class="caption">AZ Evacuation Considerations (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting2.jpg" alt="ARC Zonal Shift">
+                        <div class="caption">ARC Zonal Shift (foto)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting3.jpg" alt="Gray Failures Summary">
+                        <div class="caption">Gray Failures Summary (FOTO)</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting4.jpg" alt="Differential Observability">
+                        <div class="caption">Differential Observability</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting5.jpg" alt="Fault Containers">
+                        <div class="caption">Fault Containers</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting6.jpg" alt="AZ Evacuation">
+                        <div class="caption">AZ Evacuation</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting7.jpg" alt="Gray Failures Detection">
+                        <div class="caption">Gray Failures Detection</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/Día 2/Detecting8.jpg" alt="Best Practices">
+                        <div class="caption">Best Practices</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Session 7: CloudWatch Alarm Tags -->
+        <section class="session" id="alarm-tags" data-start-time="2025-10-08T15:45:00">
+            <h2>Leveraging CloudWatch Alarm Tags for Reduced MTTR</h2>
+            <div class="speaker">Satya Konathala - Senior Delivery Consultant - Operations</div>
+            <div class="time">15:45 - 16:45</div>
+            
+            <div class="content">
+                <h3>Typical Troubleshooting Workflow</h3>
+                <p><strong>Detect (MTTD) → Identify (MTTI) → Fix & Verify (MTTR)</strong></p>
+
+                <h3>Scaling Incident Response on AWS</h3>
+                <ul>
+                    <li>Observe</li>
+                    <li>Decide</li>
+                    <li>Act</li>
+                </ul>
+
+                <h3>Tagging CloudWatch Alarms - Use Cases</h3>
+                <ul>
+                    <li><strong>Automated Routing & Escalation</strong></li>
+                    <li><strong>Dynamic grouping & correlation</strong></li>
+                    <li><strong>Centralised Incident Aggregation</strong></li>
+                    <li><strong>Automated Remediation & contextual Actions</strong></li>
+                    <li><strong>Enhanced Audit and Trend Analysis</strong></li>
+                </ul>
+
+                <h3>CloudWatch to ServiceNow Integration</h3>
+                <p>Integración directa entre CloudWatch y ServiceNow para automatizar la gestión de incidentes.</p>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="contact-info">
+                <p><strong>Contacto del Equipo de Resiliencia AWS:</strong> <a href="mailto:apn-resilience-team@amazon.com">apn-resilience-team@amazon.com</a></p>
+            </div>
+            <p>&copy; 2025 AWS Partner Live London - Día 2 - 8 de Octubre</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+            <div id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

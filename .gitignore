@@ -1,0 +1,38 @@
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+
+# Archivos de editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Archivos comprimidos (si no son necesarios en el repo)
+*.zip
+*.rar
+*.7z
+
+# Node modules (si se añaden dependencias en el futuro)
+node_modules/
+
+# Archivos de configuración local
+.env
+.env.local
